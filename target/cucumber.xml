@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="15.75" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-11-10T19:35:41.133730600Z">
+<testcase classname="SauceDemo Login validation (UC-1, UC-2, UC-3)" name="Login form with empty credentials shows username required" time="2.177">
+<system-out><![CDATA[
+Given I launch the SauceDemo site "https://www.saucedemo.com/"..............passed
+When I type any credentials into username and password......................passed
+And I clear the inputs......................................................passed
+And I click the Login button................................................passed
+Then I should see username required error...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="SauceDemo Login validation (UC-1, UC-2, UC-3)" name="Login form with missing password shows password required" time="2.025">
+<system-out><![CDATA[
+Given I launch the SauceDemo site "https://www.saucedemo.com/"..............passed
+When I type "dummyUser" into username.......................................passed
+And I type "somePassword" into password.....................................passed
+And I clear only the password input.........................................passed
+And I click the Login button................................................passed
+Then I should see password required error...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="SauceDemo Login validation (UC-1, UC-2, UC-3)" name="Successful login with accepted usernames - #1.1" time="2.63">
+<system-out><![CDATA[
+Given I launch the SauceDemo site "https://www.saucedemo.com/"..............passed
+When I login with accepted username "standard_user" and password "secret_sauce".passed
+Then I should be on the dashboard with title "Swag Labs"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="SauceDemo Login validation (UC-1, UC-2, UC-3)" name="Successful login with accepted usernames - #1.2" time="1.995">
+<system-out><![CDATA[
+Given I launch the SauceDemo site "https://www.saucedemo.com/"..............passed
+When I login with accepted username "problem_user" and password "secret_sauce".passed
+Then I should be on the dashboard with title "Swag Labs"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="SauceDemo Login validation (UC-1, UC-2, UC-3)" name="Successful login with accepted usernames - #1.3" time="6.852">
+<system-out><![CDATA[
+Given I launch the SauceDemo site "https://www.saucedemo.com/"..............passed
+When I login with accepted username "performance_glitch_user" and password "secret_sauce".passed
+Then I should be on the dashboard with title "Swag Labs"....................passed
+]]></system-out>
+</testcase>
+</testsuite>

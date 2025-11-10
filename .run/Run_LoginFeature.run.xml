@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Login Feature" type="CucumberJavaRunConfigurationType">
+    <option name="CUCUMBER_CORE_ARGS" value="--glue com.sauce.bdd src/test/resources/features/login.feature" />
+    <option name="CUCUMBER_MAIN_CLASS" value="io.cucumber.core.cli.Main" />
+    <option name="GLUE" value="com.sauce.bdd" />
+    <option name="FEATURE_OR_FOLDER_PATH" value="src/test/resources/features/login.feature" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="USE_PLAIN_OUTPUT" value="true" />
+    <module name="finalTask" />
+  </configuration>
+</component>

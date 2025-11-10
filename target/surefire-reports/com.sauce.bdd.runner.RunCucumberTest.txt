@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sauce.bdd.runner.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.08 s -- in com.sauce.bdd.runner.RunCucumberTest
