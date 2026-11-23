@@ -1,6 +1,0 @@
-com\sauce\bdd\runner\RunCucumberTest.class
-com\sauce\bdd\steps\LoginSteps.class
-com\sauce\bdd\support\DriverFactory.class
-com\sauce\bdd\pages\LoginPage.class
-com\sauce\bdd\hooks\Hooks.class
-com\sauce\bdd\pages\InventoryPage.class
